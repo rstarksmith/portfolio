@@ -1,10 +1,11 @@
 import './App.css';
+import { Fade } from "react-awesome-reveal";
 
 function App() {
   return (
-    <div>
-    This is my portfolio
-    </div>
+    <Fade>
+      <div>This is my portfolio</div>
+    </Fade>
   );
 }
 
